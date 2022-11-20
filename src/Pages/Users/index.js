@@ -1,4 +1,4 @@
-import React, { Component, useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { getUsers } from '../../API'
 import Spinner from '../../Components/Spinner'
 import Card from './components/Card'

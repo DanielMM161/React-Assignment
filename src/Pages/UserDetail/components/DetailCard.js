@@ -1,8 +1,6 @@
 import './styles/DetailCard.css'
 
 const DetailCard = ({name, username, email, phone, company, webstie, address}) => {
-
-
   return (
     <ul className='list-container'>
       <p><b>- name:</b> {name}</p>
@@ -20,7 +18,6 @@ const DetailCard = ({name, username, email, phone, company, webstie, address}) =
       </ul>
     </ul>
   );
-
 }
 
 export default DetailCard

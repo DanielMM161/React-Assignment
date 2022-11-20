@@ -12,7 +12,7 @@ const UserDetail = () =>  {
   const { userId } = useParams()
 
   useEffect(() => {
-    async function fetchData() {
+    async function fetchData(userId) {
       getUserDetail(userId)
         .then(result => { 
           setUserDetail(result.data)
@@ -23,10 +23,8 @@ const UserDetail = () =>  {
           setUserDetail(null)
         })
     }
-    fetchData()
-  
+    fetchData(userId)
   }, [])
-
 
   const renderUserDetail = () => {
     if(loading) {

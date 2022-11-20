@@ -1,0 +1,12 @@
+.wrapper-spinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: inherit;
+}
+.wrapper {
+  padding: 10%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+}
